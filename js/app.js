@@ -121,11 +121,11 @@ const listaSugerencias = document.querySelector('#sugerencias');
 
 // Datos de los cursos (esto puede venir de una API o base de datos en un caso real)
 const todosLosCursos = [
-    { id: '1', titulo: 'HTML5, CSS3, JavaScript para Principiantes', imagen: '../img/curso1.jpg', precio: '$29.99' },
-    { id: '2', titulo: 'Curso de Comida Vegetariana', imagen: '../img/curso2.jpg', precio: '$49.99' },
-    { id: '3', titulo: 'Guitarra para Principiantes', imagen: '../img/curso3.jpg', precio: '$39.99' },
-    { id: '4', titulo: 'Huerto en tu casa', imagen: '../img/curso4.jpg', precio: '$44.99' },
-    { id: '5', titulo: 'Decoración con productos de tu hogar', imagen: '../img/curso5.jpg', precio: '$19.99' },
+    { id: '1', titulo: 'HTML5, CSS3, JavaScript para Principiantes', imagen: 'img/curso1.jpg', precio: '$29.99' },
+    { id: '2', titulo: 'Curso de Comida Vegetariana', imagen: 'img/curso2.jpg', precio: '$49.99' },
+    { id: '3', titulo: 'Guitarra para Principiantes', imagen: 'img/curso3.jpg', precio: '$39.99' },
+    { id: '4', titulo: 'Huerto en tu casa', imagen: 'img/curso4.jpg', precio: '$44.99' },
+    { id: '5', titulo: 'Decoración con productos de tu hogar', imagen: 'img/curso5.jpg', precio: '$19.99' },
 ];
 
 // Función para mostrar el modal con detalles del curso y sugerencias
